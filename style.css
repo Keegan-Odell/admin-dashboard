@@ -1,9 +1,9 @@
 body {
-	height: 100vh;
-	width: 100vw;
+	height: 98.8vh;
+	width: 98.8vw;
 	display: grid;
-	grid-template-rows: 1.3fr 6fr 0.8fr;
-	gap: 10px;
+	grid-template-rows: 1fr 7fr 0.1fr;
+	gap: 5px;
 	background-color: #121212;
 }
 
@@ -12,20 +12,15 @@ header {
 	grid-column-end: -1;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	gap: 0px;
+	gap: 5px;
 }
 
 .logoContainer {
-	background-color: lightskyblue;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
+	background-color: #121212;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin: 0px;
-	border: 0px;
 }
 
 .profileInfo {
@@ -34,21 +29,79 @@ header {
 }
 
 .searchBar {
-	background-color: pink;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
-	margin: 0px;
-	border: 0px;
+	background-color: #121212;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.magnifyingGlass {
+	height: 50px;
+	width: 50px;
+	padding-right: 30px;
+}
+
+.search {
+	width: 450px;
+	height: 25px;
+	border-radius: 30px;
+	background-color: lightgray;
+	color: black;
 }
 
 .usernameInfo {
+	background-color: #121212;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right {
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 500px;
+}
+
+button {
+	height: 55px;
+	width: 110px;
+	font-size: 20px;
+	border-radius: 30px;
+	color: #121212;
 	background-color: white;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
-	margin: 0px;
-	border: 0px;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 20px;
+}
+
+.anotherFuckingContainer {
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+}
+
+.usernameGreeting {
+	color: white;
+	font-size: 20px;
+}
+
+.username {
+	color: white;
+	font-size: 30px;
+}
+
+.profilePic {
+	height: 120px;
+	width: 120px;
+	border-radius: 100px;
+	margin-bottom: 10px;
 }
 
 main {
@@ -56,46 +109,31 @@ main {
 	grid-row-end: 3;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	gap: 10px;
+	gap: 5px;
 }
 
 .dashboard {
-	background-color: yellow;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
+	background-color: lightskyblue;
 }
 
 .bigDaddyContainer {
 	display: grid;
 	grid-template-rows: 1fr 1fr 4fr;
-	gap: 10px;
+	gap: 5px;
 }
 
 .profile {
 	background-color: green;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
 }
 
 .projects {
 	background-color: orange;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
 }
 
 .projectContainer {
 	background-color: red;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
 }
 
 footer {
 	background-color: purple;
-	border: 2px;
-	border-style: solid;
-	border-color: black;
 }
