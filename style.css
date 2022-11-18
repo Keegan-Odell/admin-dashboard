@@ -1,0 +1,101 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-rows: 1.3fr 6fr 0.8fr;
+	gap: 10px;
+	background-color: #121212;
+}
+
+header {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 0px;
+}
+
+.logoContainer {
+	background-color: lightskyblue;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px;
+	border: 0px;
+}
+
+.profileInfo {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.searchBar {
+	background-color: pink;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	margin: 0px;
+	border: 0px;
+}
+
+.usernameInfo {
+	background-color: white;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	margin: 0px;
+	border: 0px;
+}
+
+main {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	gap: 10px;
+}
+
+.dashboard {
+	background-color: yellow;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.bigDaddyContainer {
+	display: grid;
+	grid-template-rows: 1fr 1fr 4fr;
+	gap: 10px;
+}
+
+.profile {
+	background-color: green;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.projects {
+	background-color: orange;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.projectContainer {
+	background-color: red;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+footer {
+	background-color: purple;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
