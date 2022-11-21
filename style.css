@@ -113,27 +113,83 @@ main {
 }
 
 .dashboard {
-	background-color: lightskyblue;
+	background-color: #121212;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.dashboardContainer1 {
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+	justify-content: space-evenly;
+	align-items: left;
+	width: 190px;
+}
+
+.dashboardContainer1 > * {
+	color: white;
+	font-size: 30px;
+	margin: 15px;
 }
 
 .bigDaddyContainer {
 	display: grid;
-	grid-template-rows: 1fr 1fr 4fr;
+	grid-template-rows: 1fr 4fr;
 	gap: 5px;
 }
 
+.dashboardContainer2 {
+	display: flex;
+	flex-direction: column;
+	height: 25vh;
+	justify-content: space-evenly;
+	align-items: left;
+	width: 190px;
+}
+
+.dashboardContainer2 > * {
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+
 .profile {
-	background-color: green;
+	background-color: #121212;
 }
 
 .projects {
-	background-color: orange;
+	background-color: #121212;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projectInfo {
+	color: white;
+	font-size: 40px;
 }
 
 .projectContainer {
-	background-color: red;
+	background-color: #121212;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+}
+
+.projectContaienrInfo {
+	background-color: lightslategray;
+	width: 335px;
+	left
 }
 
 footer {
-	background-color: purple;
+	background-color: #121212;
+}
+
+.footer {
+	color: white;
+	text-align: center;
 }
